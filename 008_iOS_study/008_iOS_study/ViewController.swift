@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.addSubview(button)
     }
 
-
+    
+    @IBAction func touchUpInsideButton(_ sender: Any) {
+        Toast.show("登録しました。", self.view)
+    }
+    
 }
 

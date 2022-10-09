@@ -13,6 +13,7 @@
 		A912A62E28F29E41002013FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A912A62C28F29E41002013FB /* Main.storyboard */; };
 		A912A63028F29E42002013FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A912A62F28F29E42002013FB /* Assets.xcassets */; };
 		A912A63328F29E42002013FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A912A63128F29E42002013FB /* LaunchScreen.storyboard */; };
+		A976C5F528F3032700A748F0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A976C5F428F3032700A748F0 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A912A62F28F29E42002013FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A912A63228F29E42002013FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A912A63428F29E42002013FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A976C5F428F3032700A748F0 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		A912A61A28F29E41002013FB = {
 			isa = PBXGroup;
 			children = (
-				A912A62528F29E41002013FB /* sandbox */,
+				A912A62528F29E41002013FB /* 008_iOS_study */,
 				A912A62428F29E41002013FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +55,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A912A62528F29E41002013FB /* sandbox */ = {
+		A912A62528F29E41002013FB /* 008_iOS_study */ = {
 			isa = PBXGroup;
 			children = (
 				A912A62628F29E41002013FB /* AppDelegate.swift */,
 				A912A62828F29E41002013FB /* SceneDelegate.swift */,
 				A912A62A28F29E41002013FB /* ViewController.swift */,
+				A976C5F428F3032700A748F0 /* Toast.swift */,
 				A912A62C28F29E41002013FB /* Main.storyboard */,
 				A912A62F28F29E42002013FB /* Assets.xcassets */,
 				A912A63128F29E42002013FB /* LaunchScreen.storyboard */,
 				A912A63428F29E42002013FB /* Info.plist */,
 			);
-			path = sandbox;
+			path = 008_iOS_study;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A912A62B28F29E41002013FB /* ViewController.swift in Sources */,
+				A976C5F528F3032700A748F0 /* Toast.swift in Sources */,
 				A912A62728F29E41002013FB /* AppDelegate.swift in Sources */,
 				A912A62928F29E41002013FB /* SceneDelegate.swift in Sources */,
 			);
