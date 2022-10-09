@@ -58,16 +58,48 @@
 		A912A62528F29E41002013FB /* 008_iOS_study */ = {
 			isa = PBXGroup;
 			children = (
-				A912A62628F29E41002013FB /* AppDelegate.swift */,
-				A912A62828F29E41002013FB /* SceneDelegate.swift */,
-				A912A62A28F29E41002013FB /* ViewController.swift */,
-				A976C5F428F3032700A748F0 /* Toast.swift */,
-				A912A62C28F29E41002013FB /* Main.storyboard */,
+				A921145A28F30F0800A51632 /* view */,
+				A921145B28F30F2D00A51632 /* delegate */,
+				A921145C28F30F4A00A51632 /* res */,
+				A921145D28F30F8300A51632 /* toast */,
 				A912A62F28F29E42002013FB /* Assets.xcassets */,
 				A912A63128F29E42002013FB /* LaunchScreen.storyboard */,
 				A912A63428F29E42002013FB /* Info.plist */,
 			);
 			path = 008_iOS_study;
+			sourceTree = "<group>";
+		};
+		A921145A28F30F0800A51632 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A912A62A28F29E41002013FB /* ViewController.swift */,
+				A912A62C28F29E41002013FB /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A921145B28F30F2D00A51632 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A912A62628F29E41002013FB /* AppDelegate.swift */,
+				A912A62828F29E41002013FB /* SceneDelegate.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		A921145C28F30F4A00A51632 /* res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		A921145D28F30F8300A51632 /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				A976C5F428F3032700A748F0 /* Toast.swift */,
+			);
+			path = toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
