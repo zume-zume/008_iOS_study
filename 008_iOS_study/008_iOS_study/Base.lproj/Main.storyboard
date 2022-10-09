@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcL-YF-Jtv">
-                                <rect key="frame" x="173" y="432" width="68" height="32"/>
+                                <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -31,12 +31,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="NcL-YF-Jtv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="173" id="FRu-ci-Z80"/>
-                            <constraint firstItem="NcL-YF-Jtv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nun-yv-1Vd"/>
                             <constraint firstItem="NcL-YF-Jtv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jaH-bV-nGH"/>
-                            <constraint firstItem="NcL-YF-Jtv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="388" id="r8b-5A-1e6"/>
                             <constraint firstItem="NcL-YF-Jtv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="t2H-o3-KqA"/>
-                            <constraint firstItem="NcL-YF-Jtv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z3P-Zb-aGu"/>
                         </constraints>
                     </view>
                     <connections>
