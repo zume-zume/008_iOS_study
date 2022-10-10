@@ -10,7 +10,6 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    
     @IBAction func touchUpInsideButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
