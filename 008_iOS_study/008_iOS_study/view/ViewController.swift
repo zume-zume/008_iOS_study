@@ -17,7 +17,11 @@ class ViewController: UIViewController {
 
     
     @IBAction func touchUpInsideButton(_ sender: Any) {
-        Toast.show("登録しました。", self.view)
+        
+        let nextVC = SecondViewController()
+        present(nextVC, animated: true, completion: nil)
+        
+//        Toast.show("登録しました。", self.view)
     }
     
 }

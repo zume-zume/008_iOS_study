@@ -13,6 +13,8 @@
 		A912A62E28F29E41002013FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A912A62C28F29E41002013FB /* Main.storyboard */; };
 		A912A63028F29E42002013FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A912A62F28F29E42002013FB /* Assets.xcassets */; };
 		A912A63328F29E42002013FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A912A63128F29E42002013FB /* LaunchScreen.storyboard */; };
+		A921146128F3103400A51632 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921146028F3103400A51632 /* SecondViewController.swift */; };
+		A921146328F3105000A51632 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A921146228F3105000A51632 /* SecondViewController.xib */; };
 		A976C5F528F3032700A748F0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A976C5F428F3032700A748F0 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		A912A62F28F29E42002013FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A912A63228F29E42002013FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A912A63428F29E42002013FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A921146028F3103400A51632 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A921146228F3105000A51632 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		A976C5F428F3032700A748F0 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +78,8 @@
 			children = (
 				A912A62A28F29E41002013FB /* ViewController.swift */,
 				A912A62C28F29E41002013FB /* Main.storyboard */,
+				A921146028F3103400A51632 /* SecondViewController.swift */,
+				A921146228F3105000A51632 /* SecondViewController.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -160,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A921146328F3105000A51632 /* SecondViewController.xib in Resources */,
 				A912A63328F29E42002013FB /* LaunchScreen.storyboard in Resources */,
 				A912A63028F29E42002013FB /* Assets.xcassets in Resources */,
 				A912A62E28F29E41002013FB /* Main.storyboard in Resources */,
@@ -176,6 +183,7 @@
 				A912A62B28F29E41002013FB /* ViewController.swift in Sources */,
 				A976C5F528F3032700A748F0 /* Toast.swift in Sources */,
 				A912A62728F29E41002013FB /* AppDelegate.swift in Sources */,
+				A921146128F3103400A51632 /* SecondViewController.swift in Sources */,
 				A912A62928F29E41002013FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
